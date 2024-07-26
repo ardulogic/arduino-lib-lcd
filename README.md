@@ -26,7 +26,7 @@ static const unsigned char PROGMEM P_ICON[] = {
 void setup() {
  Serial.begin(9600);
  lcd.init();
-
+// void LCD_Zone::set(byte x_coord, byte y_coord, byte width, byte height)
  lcd.zones[0]->set(5, 0,  20, 8);
  lcd.zones[1]->set(5, 10, 20, 8);
  lcd.zones[2]->set(5, 18, 20, 8);
